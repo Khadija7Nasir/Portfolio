@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Khadija Nasir — Portfolio</title>
+  <style>
+    :root{--bg:#f7f8fb;--card:#ffffff;--muted:#6b7280;--accent:#2563eb}
+    *{box-sizing:border-box}
+    body{font-family:system-ui,-apple-system,Segoe UI,Roboto,'Helvetica Neue',Arial;line-height:1.5;margin:0;background:var(--bg);color:#111}
+    .container{max-width:900px;margin:48px auto;padding:24px}
+    header{display:flex;align-items:center;gap:20px}
+    figure{margin:0;display:flex;gap:16px;align-items:center}
+    img{width:120px;height:120px;object-fit:cover;border-radius:999px;border:4px solid white;box-shadow:0 6px 18px rgba(16,24,40,0.06)}
+    figcaption{font-size:0.9rem;color:var(--muted)}
+    h1{font-size:2rem;margin:0}
+    .intro{background:var(--card);padding:18px;border-radius:12px;margin-top:20px;box-shadow:0 6px 18px rgba(16,24,40,0.04)}
+    .quote{margin:12px 0;font-style:italic;color:var(--muted)}
+    .social{display:flex;gap:12px;margin-top:12px}
+    .social a{padding:8px 12px;border-radius:8px;text-decoration:none;border:1px solid rgba(0,0,0,0.06);background:transparent}
+    footer{margin-top:28px;color:var(--muted);font-size:0.9rem}
+    @media (max-width:600px){header{flex-direction:column;align-items:flex-start}img{width:96px;height:96px}}
+  </style>
+</head>
+<body>
+  <main class="container">
+     <!-- Navigation -->
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="skills.html">Skills</a>
+      <a href="projects.html">Projects</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+
+    <!-- Header / Profile -->
+    <header>
+      <figure>
+        <!-- Replace src with your profile picture path -->
+        <img src="images/profile.jpg" alt="Profile picture" />
+        <figcaption>
+          <h1>Khadija Nasir</h1>
+          <div class="muted">BSCS Student • Web Developer</div>
+        </figcaption>
+      </figure>
+    </header>
+
+    <!-- Short introduction -->
+    <section class="intro">
+      <p>
+        Hello — I'm <strong>Khadija Nasir</strong>, a <u>web developer</u> who loves building clean,
+        accessible user interfaces and learning new technologies.
+      </p>
+
+      <!-- Motivational quote -->
+      <blockquote class="quote">
+        “Code is like humor. When you have to explain it, it’s bad.” — Cory House
+      </blockquote>
+
+      <!-- Social links: replace href with your profiles -->
+      <div class="social">
+        <a href="https://github.com/Khadija7Nasir" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="https://www.linkedin.com/in/khadija-nasir-73a5ab379" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a href="mailto:raok2527@gmail.com">Email</a>
+        <a href="projects.html">Projects</a>
+      </div>
+    </section>
+
+    <footer>
+      <p>Tip: Replace the placeholder name, picture, and links with your own. Use the <code>projects.html</code> page to showcase work.</p>
+    </footer>
+  </main>
+</body>
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact — Your Name</title>
+  <style>
+    :root{--bg:#f7f8fb;--card:#ffffff;--muted:#6b7280;--accent:#2563eb}
+    body{font-family:system-ui,-apple-system,Segoe UI,Roboto,'Helvetica Neue',Arial;margin:0;background:var(--bg);color:#111;line-height:1.5}
+    .container{max-width:800px;margin:40px auto;padding:20px}
+    h2{color:var(--accent)}
+    form{background:var(--card);padding:20px;border-radius:12px;box-shadow:0 6px 18px rgba(16,24,40,0.04);margin-top:20px}
+    label{display:block;margin-bottom:6px;font-weight:600}
+    input,textarea{width:100%;padding:10px;border:1px solid #d1d5db;border-radius:8px;margin-bottom:16px;font-size:1rem}
+    button{background:var(--accent);color:#fff;border:none;padding:12px 20px;border-radius:8px;font-size:1rem;cursor:pointer}
+    button:hover{opacity:0.9}
+    nav{margin-bottom:20px}
+    nav a{margin-right:12px;text-decoration:none;color:var(--accent)}
+    nav a:hover{text-decoration:underline}
+    address{margin-top:24px;font-style:normal;color:var(--muted)}
+  </style>
+</head>
+<body>
+  <main class="container">
+    <!-- Navigation -->
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="skills.html">Skills</a>
+      <a href="projects.html">Projects</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+
+    <!-- Contact Form Section -->
+    <section>
+      <h2>Contact Form</h2>
+      <form action="#" method="post">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email">
+        <label for="phone">Phone</label>
+        <input type="tel" id="phone" name="phone" placeholder="Enter your phone number">
+        
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" placeholder="Write your message here..." required></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
+
+      <!-- Address Section -->
+      <address>
+        <strong>Khadija Nasir</strong><br>
+        BSCS Student, Web Developer<br>
+        Khanewal, Pakistan<br>
+        Email: <a href="mailto:raok2527@gmail.com">raok2527@gmail.com</a><br>
+        Phone: +92-3157264-243
+      </address>
+    </section>
+  </main>
+</body>
+</html>
